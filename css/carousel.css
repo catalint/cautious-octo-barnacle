@@ -7,7 +7,10 @@ body {
   color: #5a5a5a;
 }
 
-
+.navbar-brand{
+  padding-top:2x;
+  padding-bottom:2px;
+}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
