@@ -16,8 +16,8 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Acasa</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="{{if page.menu ==='acasa'}}active{% endif %}"><a href="index.html">Acasa</a></li>
+                <li class="{{if page.menu ==='contact'}}active{% endif %}"><a href="contact.html">Contact</a></li>
               </ul>
             </div>
           </div>
