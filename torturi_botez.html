@@ -7,13 +7,6 @@ galerie:
 -  poza: 3
 -  poza: 4
 -  poza: 5
--  poza: 6
--  poza: 7
--  poza: 8
--  poza: 9
--  poza: 10
--  poza: 11
--  poza: 12
 ---
 {% include_relative _sus.html %}
 {% include_relative _meniu.html %}
@@ -29,7 +22,7 @@ galerie:
     <div class="row">
       {% for element in page.galerie %}
       <div class="col-lg-3 galerie">
-        <a href="#" class="pop"><img class="img-rounded" src="imagini/botez/pers_mica_{{element.poza}}.jpg" alt="Torturi Botez"></a>
+        <a href="#" class="pop"><img class="img-rounded" src="imagini/botez/poza_mica_{{element.poza}}.jpg" alt="Torturi Botez"></a>
       </div><!-- /.col-lg-4 -->
       {% endfor %}
 
