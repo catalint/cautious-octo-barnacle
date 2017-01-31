@@ -4,6 +4,8 @@ menu: candybar
 galerie:
 -  poza: "candybar_1"
 -  poza: "candybar_2"
+-  poza: "candybar_3"
+-  poza: "candybar_4"
 ---
 {% include_relative _sus.html %}
 {% include_relative _meniu.html %}
@@ -18,7 +20,7 @@ galerie:
 
     <div class="row">
       {% for element in page.galerie %}
-      <div class="col-lg-4">
+      <div class="col-lg-3">
         <a href="#" class="pop"><img class="pop img-rounded" src="imagini/{{element.poza}}_mica.jpg" alt="Candybar"></a>
       </div><!-- /.col-lg-4 -->
       {% endfor %}
