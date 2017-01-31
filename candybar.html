@@ -1,6 +1,9 @@
 ---
 title: Top Caffe - Candybar
 menu: candybar
+galerie:
+-  poza: candybar_1
+-  poza: candybar_2
 ---
 {% include_relative _sus.html %}
 {% include_relative _meniu.html %}
@@ -14,9 +17,9 @@ menu: candybar
   <div class="container marketing">
 
     <div class="row">
-      {% for candy in site.candybar %}
+      {% for element in page.galerie %}
       <div class="col-lg-4">
-        <img class="pop img-rounded" src="imagini/{% candy.poza %}_mica.jpg" alt="Candybar" width="140" height="140">
+        <img class="pop img-rounded" src="imagini/{% element.poza %}_mica.jpg" alt="Candybar" width="140" height="140">
       </div><!-- /.col-lg-4 -->
       {% endfor %}
 
