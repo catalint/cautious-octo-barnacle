@@ -1,8 +1,8 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-.navbar-collapse.collapsing,
-.navbar-collapse.in {
+.navbar-default.collapsing,
+.navbar-default.in {
   position: absolute;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.80);
